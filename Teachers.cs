@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Personnel
 {
-    public class Teachers : Users
+    public class Teachers : Users //perii Usersilta kaikki
     {
-        public Teachers(string firstName, string lastName) : base(firstName, lastName)
+        public Teachers(string firstName, string lastName) : base(firstName, lastName) //perus muodostin joka periytyy user classin perus muodostimelta
         {
             
         }
